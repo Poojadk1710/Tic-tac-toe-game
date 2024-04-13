@@ -1,3 +1,24 @@
+/*********************************************************
+* Name       :  Pooja Kulkarni
+* Class      :  CSCI 2312 Section 001
+* Due Date   :  04/12/2024
+*********************************************************/
+
+/*********************************************************
+* Summary: This file includes the implementation for main.cpp.
+*
+* Author: Pooja Kulkarni
+* Student ID : 111024438
+* Created: April 08, 2024
+* Summary of Modifications [if applicable]:
+*      April 08, 2024 - Initial implementation of TicTacToe game
+*      April 11, 2024 - Completed implementation of all game functions
+*      April 11, 2024 - Resolved bugs and successfully compiled the code
+*      April 12, 2024 - Added comments and coding style to the code
+*      April 12, 2024 - Conducted thorough testing and ensured functionality as per specifications
+*      April 12, 2024 - Finalized documentation and submitted
+*********************************************************/
+
 #include "TicTacToe.h"
 
 int main() {

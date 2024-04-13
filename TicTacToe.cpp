@@ -1,3 +1,24 @@
+/*********************************************************
+* Name       :  Pooja Kulkarni
+* Class      :  CSCI 2312 Section 001
+* Due Date   :  04/12/2024
+*********************************************************/
+
+/*********************************************************
+* Summary: This file includes the implementation for TicTacToe.cpp.
+*
+* Author: Pooja Kulkarni
+* Student ID : 111024438
+* Created: April 08, 2024
+* Summary of Modifications [if applicable]:
+*      April 08, 2024 - Initial implementation of TicTacToe game
+*      April 11, 2024 - Completed implementation of all game functions
+*      April 11, 2024 - Resolved bugs and successfully compiled the code
+*      April 12, 2024 - Added comments and coding style to the code
+*      April 12, 2024 - Conducted thorough testing and ensured functionality as per specifications
+*      April 12, 2024 - Finalized documentation and submitted
+*********************************************************/
+
 #include "TicTacToe.h"
 #include <cstdlib>
 #include <ctime>
@@ -112,7 +133,7 @@ void TicTacToe::playGame() {
         std::cout << "Enter row and column: ";
         std::cin >> x >> y;
         x--; // Adjust for 0-indexing
-        y--; // Adju
+        y--; // Adjust for 0-indexing
         if (x >= 0 && x < size && y >= 0 && y < size && !isFull(x, y)) {
             makeMove(x, y, currentPlayer);
             currentPlayer = (currentPlayer == 'X') ? 'O' : 'X'; // Switch player
