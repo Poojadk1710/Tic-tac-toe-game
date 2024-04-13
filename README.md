@@ -1,7 +1,25 @@
-# C++
-Code Practice from scratch
+# TicTacToe Game
 
-C++
-Book For Reference : C++ How to Program by Paul Deitel- Harvey Deitel.pdf
-Youtube Reference : https://www.youtube.com/watch?v=_bYFu9mBnr4&list=PL_c9BZzLwBRJVJsIfe97ey45V4LP_HXiG
+A simple command-line implementation of the classic Tic-Tac-Toe game written in C++.
 
+## Features
+
+- Allows two players to play manually.
+- Supports customizable board size (minimum size: 3x3).
+- Checks for win and draw conditions after each move.
+
+## Usage
+
+1. Compile the source code using the following command:
+
+    ```bash
+    g++ TicTacToe.cpp main.cpp
+    ```
+
+2. Run the compiled executable:
+
+    ```bash
+    ./a.out
+    ```
+
+3. Follow the on-screen instructions to play the game.
